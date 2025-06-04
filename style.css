@@ -3,20 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
-    -webkit-font-smoothing: antialiased;
 }
 
 
-:root {
-    --dark-blue: #262E38;
-    --light-grey: #969FAD;
-    --medium-grey: #7C8798;
-    --orange: #FC7614;
-    --white: #FFF;
+
+:root{
+    --dark-blue: #262e38;
+    --light-grey: #969fad;
+    --medium-grey: #7c8798;
+    --orange: #fc7614;
+    --white: #fff;
     --very-dark-blue: #131518;
-    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);  
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
 }
-
 
 
 body {
@@ -71,23 +70,27 @@ body {
 }
 
 
-.botoes button {
-    width:51px;
-    height: 51px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    border-radius: 50%;
-    border: none;
-    color: var(--medium-grey);
-    background-color: var(--dark-blue);
-     transition: all ease-in-out 0.3s;
+More actions
+.botoes button{
+               
+               width: 51px;
+               height: 51px;
+               font-size: 16px;
+               font-weight: 700;
+               line-height: 24px;
+               border-radius: 50%;
+               border: none;
+               color:  var(--medium-grey);
+               background-color: var(--dark-blue);
+               
+               
+               transition: all ease-in-out 0.3s;
 }
 
-.botoes button:hover {
-    color: var(--white);
-    background-color: var(--orange);
-    cursor: pointer;
+.botoes button:hover{
+                     color: var(--white);
+                     background-color: var(--orange);
+                     cursor: pointer;
 }
 
 .botoes button:focus {
@@ -97,24 +100,33 @@ body {
 
 .card > a {
     display: block;
-   width: 100%;
-   padding: 13px;
-   background-color: var(--orange);
-   border: none;
-   border-radius: 22px;
 
-   font-size: 15px;
-   font-weight: 700;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   color: var(--white);
+width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
-   transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+
+         
+        
+         
+               
+        
+         
 }
 
-.card > a:hover { 
+
+.card > a:hover{
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
-    
 }
